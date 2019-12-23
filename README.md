@@ -50,6 +50,7 @@ Rules: [FQrabbit/SSTap-Rule](https://github.com/FQrabbit/SSTap-Rule)
 | AutoProxy | [gfwlist/gfwlist](https://github.com/gfwlist/gfwlist)                               |
 | DNSMasq   | [felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list) |
 | PAC       | [breakwa11/gfw_whitelist](https://github.com/breakwa11/gfw_whitelist)               |
+| ACL       | [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)                               |
 
 ### Get a domain list from gfwlist
 
