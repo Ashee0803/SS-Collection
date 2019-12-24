@@ -1,0 +1,20 @@
+name: Deploy to Pages
+on:
+  schedule:
+    - cron: "0 0 15 * *"
+jobs:
+  update-chnip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v1
+      - name: update
+        run: |
+          cd tools
+          npm i
+          npm run update-chnip
+          cd ..
+      - name: push
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
