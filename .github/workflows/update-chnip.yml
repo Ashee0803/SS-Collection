@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v1
       - name: update
         run: |
-          git lfs install
+          git lfs uninstall
           cd tools
           npm i
           npm run update-chnip
